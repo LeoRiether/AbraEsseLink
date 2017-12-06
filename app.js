@@ -4,7 +4,7 @@ var self = {
 		self.fps = 40.0;
 		self.dt = 1.0/self.fps;
 		self.balloons = $('.balloonDiv');
-		self.balloonPng = 'http://pngimg.com/upload/balloon_PNG4958.png';
+		self.balloonPng = 'https://pngimg.com/upload/balloon_PNG4958.png';
 		//self.balloonCount = 0;
 		self.balloonInterval = setInterval(self.releaseBalloon, 2000);
 	},
